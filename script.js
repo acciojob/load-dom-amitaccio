@@ -1,6 +1,8 @@
 //your JS code here. If required.
+function loadDom() {
+	document.body.innerText = "DOM load success";
+}
+      
 
-        const message = 'DOM load success';
-        const paragraph = document.createElement('p');
-        paragraph.textContent = message;
-        document.body.appendChild(paragraph);
+
+document.addEventListener("DOMContentLoaded" , loadDom)
