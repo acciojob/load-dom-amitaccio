@@ -1,4 +1,6 @@
 //your JS code here. If required.
 
-document.write("DOM load success");
-document.body = "";
+        const message = 'DOM load success';
+        const paragraph = document.createElement('p');
+        paragraph.textContent = message;
+        document.body.appendChild(paragraph);
